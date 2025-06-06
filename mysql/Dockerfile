@@ -8,6 +8,6 @@ ENV MYSQL_DATABASE=concesionario
 
 # usuario y contraseña base de datos
 ENV MYSQL_USER=fernanda
-ENV MYSQL_PASWORD=fernanda
+ENV MYSQL_PASSWORD=fernanda
 
 COPY concesionario.sql /docker-entrypoint-initdb.d/
